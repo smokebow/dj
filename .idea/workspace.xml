@@ -47,7 +47,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="16" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.57238305">
+            <state line="80" column="7" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.518931">
               <folding />
             </state>
           </provider>
@@ -531,7 +531,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="16" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.57238305">
+        <state line="80" column="7" selection-start="4318" selection-end="4318" vertical-scroll-proportion="0.518931">
           <folding />
         </state>
       </provider>
