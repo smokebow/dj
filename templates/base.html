@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <title>{% block head_title %}Главная{% endblock %}</title>
 
-        <link rel="stylesheet" type="text/css" href="{% static "assets/css/bootstrap.css" %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static "assets/css/bootstrap.min.css" %}"/>
     <link rel="stylesheet" type="text/css" href="{% static "assets/js/bootstrap.js" %}"/>
 
 </head>
@@ -34,10 +34,10 @@
     </div>
 
    <body>
- <div align="padding-bottom:70px">
+
  {% block content %}
 
  {% endblock %}
-</div>
+
 </body>
 </html>
