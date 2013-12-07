@@ -10,7 +10,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'dj.views.home', name='home'),
     # url(r'^dj/', include('dj.foo.urls')),
     url(r'^$', TemplateView.as_view (template_name='index.html')),
-    url(r'^base2$', TemplateView.as_view (template_name='base2.html')),
+    url(r'^base2/$', TemplateView.as_view (template_name='base2.html')),
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
