@@ -8,10 +8,11 @@
     <title>{% block head_title %}Главная{% endblock %}</title>
 
         <link rel="stylesheet" type="text/css" href="{% static "assets/css/bootstrap.min.css" %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static "assets/js/bootstrap.js" %}"/>
+        <link rel="stylesheet" type="text/css" href="{% static "assets/js/bootstrap.js" %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static "assets/css/dj.css" %}"/>
 
 </head>
-
+<body>
 <div role="navigation" class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -33,7 +34,17 @@
       </div><!-- /.container -->
     </div>
 
-   <body>
+
+
+<div class="jumbotron">
+
+      <div class="container">
+
+        <h1 align=center> Hello, world!</h1>
+
+      </div>
+
+          </div>
 
  {% block content %}
 
