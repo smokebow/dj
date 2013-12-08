@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{%block signup_active%}active{%endblock%}
+
+<h1>{% block title %}Регистрация{% endblock %}</h1>
+{% block content %}
+<div align="center">
+<h2>Register</h2>
+    <form action="/registration/register/" method="post">{% csrf_token %}
+    {{ form }}
+
+    <input type="submit" value="Register">
+
+    </form>
+</div>
+{% endblock %}
